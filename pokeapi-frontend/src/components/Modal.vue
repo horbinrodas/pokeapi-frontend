@@ -57,7 +57,7 @@
     display: flex; justify-content: center; align-items: center;
   }
   .modal-content {
-    background: white;
+    background: #FF0000;
     padding: 1rem;
     border-radius: 8px;
     width: 80%;
