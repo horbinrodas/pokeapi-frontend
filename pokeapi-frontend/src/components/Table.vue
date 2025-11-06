@@ -52,8 +52,7 @@
         return await res.json()
       })
     )
-
-    pokemons.value = detailedData
+    pokemons.value = detailedData    
   }
 
   const nextPage = () => {
@@ -74,18 +73,18 @@
 
 <style scoped>
   table {
-  border-collapse: collapse;
-  width: 100%;
+    border-collapse: collapse;
+    width: 100%;
   }
   th, td {
-  border: 1px solid #ccc;
-  padding: 8px;
+    border: 1px solid #ccc;
+    padding: 8px;
   }
   .pagination {
-  margin-top: 1rem;
-  display: flex;
-  gap: 1rem;
-  align-items: center;
+    margin-top: 1rem;
+    display: flex;
+    gap: 1rem;
+    align-items: center;
   }
 </style>
 
